@@ -3,10 +3,8 @@
 #include "bsp.h"
 #include "miros.h"
 /*
- * In this lesson, we will automate the
- * context switch between two or more threads.
- * First we will create the miros.c and miros.h
- * that contais the API for controlling the RTOS.
+Main program to test the rtos for the msp432.
+Includes how to create a thread for the rtos.
  */
 
 uint32_t stack_blink_blue[40];
